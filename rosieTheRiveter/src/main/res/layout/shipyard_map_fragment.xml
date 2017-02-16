@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shipyard_map_fragment"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="vertical" 
+        android:background="@drawable/grey_background"
+    	android:layout_alignParentBottom="true"
+    	android:id="@+id/map_controls">
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="4dp"
+		    android:background="@android:color/black"/>   
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+			android:layout_marginTop="5dp"
+	    	android:orientation="horizontal" >
+	    	
+			<RadioGroup
+			    android:id="@+id/radioGroup1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="left"
+			    android:background="@+drawable/radio_background"
+			    android:paddingRight="5dp"
+			    android:layout_marginBottom="5dp"
+			    android:layout_marginLeft="5dp" 
+			    android:layout_marginRight="5dp">
+				<RelativeLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+				    			
+				    <RadioButton
+				        android:id="@+id/radioShipyard1"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+					    android:checked="false"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+				        android:text="@string/yard1" />
+				
+				    <RadioButton
+				        android:id="@+id/radioShipyard2"
+				        android:text="@string/yard2"
+						android:textAppearance="?android:attr/textAppearanceSmall"			        
+				        android:checked="false"
+				        android:layout_toRightOf="@+id/radioShipyard1"
+						android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" />			
+				    <RadioButton
+				        android:id="@+id/radioShipyard3"
+				        android:text="@string/yard3"
+						android:textAppearance="?android:attr/textAppearanceSmall"			        
+				        android:checked="false"
+					    android:layout_below="@+id/radioShipyard1"
+						android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" />			
+				    <RadioButton
+						android:id="@+id/radioShipyard4"
+					    android:text="@string/yard4"
+						android:textAppearance="?android:attr/textAppearanceSmall"			        
+					    android:checked="false"
+					    android:layout_below="@+id/radioShipyard2"
+				        android:layout_toRightOf="@+id/radioShipyard3"
+						android:layout_width="wrap_content"
+					    android:layout_height="wrap_content" />	
+				</RelativeLayout>		
+			</RadioGroup>                
+	        <RelativeLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		    	android:orientation="vertical" 
+		    	android:paddingTop="10dp"
+		    	android:layout_marginBottom="10dp"
+		    	android:paddingLeft="10dp"
+		    	android:paddingRight="10dp">
+		            	
+		 	     <SeekBar
+			     	android:id="@+id/seekbar"
+			        android:layout_width="200dp"            
+		   			android:max="100" 
+		   			android:progress="0"
+					android:maxHeight="1000dip"
+			    	android:background="@android:color/white"  
+					android:layout_height="wrap_content" />	
+		        <RelativeLayout
+		            android:id="@+id/seekbarLabels"
+		            android:layout_below="@+id/seekbar"
+			        android:layout_width="200dp"
+			        android:layout_height="wrap_content" 
+			    	android:orientation="vertical" >		 	     					
+			 	    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+			   			android:text="@string/past"
+			   			android:layout_alignParentLeft="true"/> 	    		    
+			 	    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+			   			android:text="@string/now"
+			   			android:layout_alignParentRight="true"/> 	    		    
+			 	</RelativeLayout>
+	 	     </RelativeLayout>   				           
+            <CheckBox
+	            android:id="@+id/track_me"
+	            android:layout_width="wrap_content"
+	            android:text="@string/track_me"
+	            android:layout_height="wrap_content"/>            
+        </LinearLayout>
+	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/grey_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shipyard_2_3"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+	<com.blueverdi.rosietheriveter.RosieMapView
+	          android:id="@+id/map"
+	          android:layout_width="match_parent"
+	          android:layout_height="match_parent"
+       		  android:layout_above="@+id/map_controls"
+  			  android:clickable="true"
+              android:layout_below="@+id/title"/>
+							
+</RelativeLayout>

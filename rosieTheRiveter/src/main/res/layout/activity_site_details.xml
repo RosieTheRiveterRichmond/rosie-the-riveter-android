@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+	    android:id="@+id/buttonBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+    	android:layout_alignParentBottom="true"
+    	android:orientation="vertical" 
+    	android:background="#0996d4">
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="2dp"
+		    android:layout_gravity="bottom"
+		    android:background="#ff000000"/>   
+	    <LinearLayout
+	    	android:id="@+id/buttons"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	    	android:orientation="horizontal" 
+		    android:layout_gravity="bottom"
+	    	style="?android:attr/buttonBarStyle">
+	        <Button 
+	            android:id="@+id/audioButton"
+		        style="?android:attr/buttonBarButtonStyle"
+	            android:text="@string/audio"
+	        	android:layout_weight="1"
+	            android:layout_width="0dp" 
+	            android:background="#ffffffff"
+				android:layout_height="wrap_content"
+				android:onClick="doClick"
+	            android:gravity="center"
+	            android:layout_gravity="left"  />
+	        <Button 
+	            android:id="@+id/photosButton"
+		        style="?android:attr/buttonBarButtonStyle"
+	            android:text="@string/photos"
+	        	android:layout_weight="1"
+	            android:layout_width="0dp" 
+	            android:background="#ffffffff"
+				android:layout_height="wrap_content"
+				android:onClick="doClick"
+	            android:gravity="center"
+	            android:layout_gravity="left"  />
+		</LinearLayout>	    
+	</LinearLayout>     
+	    
+	<TextView
+		android:id="@+id/name"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="2dp"
+	    android:layout_gravity="center_horizontal"
+	    android:gravity="center"
+		android:background="#ffffffff"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    <View
+        android:id="@+id/titleBorder"
+    	android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/name"
+	    android:layout_marginBottom="5dp"
+        android:background="@android:color/black" />
+		
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/buttonBlock"
+	    android:layout_below="@id/titleBorder"
+	    android:background="@drawable/grey_background"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginBottom="5dp"
+	    android:layout_centerHorizontal="true"  >
+
+		<TextView
+			android:id="@+id/text"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingTop="10dp"
+		    android:paddingBottom="10dp"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	</ScrollView>
+    
+</RelativeLayout>
+
+

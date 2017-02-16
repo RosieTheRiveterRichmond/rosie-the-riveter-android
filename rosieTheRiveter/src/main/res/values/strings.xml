@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rosie the Riveter National Park</string>
+    <string name="action_settings">Settings</string>
+    <string name="rosie_full_name">Rosie the Riveter/WWII Home Front National Historical Park</string>
+    <string name="sites">Sites</string>
+    <string name="photo_gallery">Album</string>
+    <string name="shipyard_map">Shipyards</string>
+    <string name="about">About</string>
+    <string name="full_name_part1">Rosie the Riveter/WWII Home Front</string>
+    <string name="full_name_part2">National Historic Park</string>
+    <string name="prev">Tap for previous</string>
+    <string name="next">Tap for next</string>
+    <string name="swipe">Swipe to see more</string>
+    <string name="no_more_photos">No More photos.</string>
+    <string name="no_previous_photos">No Previous photos.</string>
+    <string name="track_me">Show my location</string>
+    <string name="shipyard_2_3">Kaiser Shipyards: then &amp; now </string>
+    <string name="site_guide">Site Guide</string>
+    <string name="map_view">Map view</string>
+    <string name="gallery_view">Gallery view</string>
+    <string name="now">Now</string>
+    <string name="past">1944</string>
+    <string name="info">Site info</string>
+    <string name="directions">Directions</string>
+    <string name="title_activity_site">Site Information</string>
+    <string name="time_warning">Opening time should be verified by calling or visiting website.</string>
+    <string name="requires_google_apps">Please install Google Maps to use this feature.</string>
+    <string name="visitor_center">Rosie the Riveter Visitor Center</string>
+    <string name="monument">Rosie the Riveter Monument</string>
+    <string name="richmond_museum">Richmond Museum of History</string>
+    <string name="red_oak">SS Red Oak Victory</string>
+    <string name="visitor_center_address1">1414 Harbour Way South, Suite #3000</string>
+    <string name="visitor_center_address2">Richmond, CA 94804 </string>
+    <string name="visitor_center_phone">(510) 232&#8211;5050</string>
+    <string name="visitor_center_description1">National Park Service Visitor Center in the Ford Building Complex.</string>
+    <string name="visitor_center_description2">Exhibits, films and information - the best introduction to the park.</string>
+    <string name="visitor_center_hours">Open daily 10:00 to 5:00</string>
+    <string name="visitor_center_hours2">Closed Thanksgiving, Christmas Day and New Years Day</string>
+    <string name="visitor_center_website">http://www.nps.gov/rori/index.htm</string>
+    <string name="visitor_center_latitude">37.9094628</string>
+    <string name="visitor_center_longitude">-122.3573737</string>
+    <string name="monument_address1">Intersection of Marina Bay Parkway and Melville Square</string>
+    <string name="monument_address2">Richmond, CA 94804 </string>
+    <string name="monument_phone"></string>
+    <string name="monument_description1">Monument honors the contributions of the Rosies to the war effort.</string>
+    <string name="monument_description2">Contains photos, quotes and a timeline.</string>
+    <string name="monument_hours">Open all reasonable hours</string>
+    <string name="monument_latitude">37.9156272</string>
+    <string name="monument_longitude">-122.3463237</string>
+    <string name="museum_address1">400 Nevin Avenue</string>
+    <string name="museum_address2">Richmond, CA</string>
+    <string name="museum_phone">(510) 235&#8211;7387</string>
+    <string name="museum_description1">Explore the history of Richmond from early Native Americans to present through their exhibits and collections.</string>
+    <string name="museum_description2">Not operated by National Park Service. Admission charged. Contact for curator-led tours.</string>
+    <string name="museum_hours">Wednesday through Sunday, 1 pm to 4 pm</string>
+    <string name="museum_hours2">Contact for holiday schedules</string>
+    <string name="museum_website">http://www.richmondmuseum.org</string>
+    <string name="museum_latitude">37.9365204354</string>
+    <string name="museum_longitude">-122.365344883</string>
+    <string name="red_oak_address1">1337 Canal Blvd., Berth 6A </string>
+    <string name="red_oak_address2">Richmond, CA 94804 </string>
+    <string name="red_oak_phone">(510) 237&#8211;2933</string>
+    <string name="red_oak_description1">Restored Victory ship - only vessel built by the Richmond Kaiser Shipyards being restored.</string>
+    <string name="red_oak_description2">Not operated by National Park Service. Admission charged.</string>
+    <string name="red_oak_hours">10:00am to 3:00pm Tuesdays, Thursdays, Saturday and Sundays. Self guided or docent-led tour. Last docent tour at 2:00pm</string>
+    <string name="red_oak_hours2">Closed holidays and when raining - contact to confirm opening hours.</string>
+    <string name="red_oak_website">http://www.richmondmuseum.org</string>
+    <string name="red_oak_latitude">37.904791622</string>
+    <string name="red_oak_longitude">-122.36429328 </string>
+    <string name="website">Website</string>
+    <string name="rosie_full_name1">Rosie the Riveter WWII Home Front</string>
+    <string name="rosie_full_name2">National Historical Park</string>
+    <string name="rosie_full_name3">Richmond, CA</string>
+    <string name="acknowledgements2">Acknowledgements</string>
+    <string name="author">App by Bradley Justice.</string>
+    <string name="overhead_photos">Overhead photos were provided by the Richmond Museum of history. Many thanks for their assistance.</string>
+    <string name="other_photos">Other historical photos are from the National Park Service Rosie the Riveter archives.</string>
+    <string name="site_photos">Modern site photos are from various website postings.</string>
+    <string name="take_down2">I believe that no media used in this app violates copyright laws. If you believe that there is a violation, please email me at bradley.justice@blueverdi.com and the item will be removed.</string>
+    <string name="rosie_song">The Rosie the Riveter song is from archive.org.</string>
+    <string name="swipe_screen">Swipe screen to turn page.</string>
+    <string name="getting_map">Getting map - please wait.</string>
+    <string name="atchison_village">Atchison Village</string>
+    <string name="atchison_address1">Bounded by MacDonald Ave, Ohio St, 1st St &amp; Garrard Blvd</string>
+    <string name="atchison_address2">Richmond, CA 94801</string>
+    <string name="atchison_phone"></string>
+    <string name="atchison_description1">WWII housing built for Kaiser workers consisting of 162 buildings.</string>
+    <string name="atchison_description2">One of a handful of such housing projects remaining in the US today.</string>
+    <string name="atchison_hours">Privately owned housing, no interior viewing.</string>
+    <string name="atchison_hours2"></string>
+    <string name="atchison_website"></string>
+    <string name="atchison_latitude">37.9340911</string>
+    <string name="atchison_longitude">-122.371638</string>
+    <string name="requires_network">Requires an Internet connection.</string>
+    <string name="copyright1">Copyright \u00A9 2014 - 2017</string>
+    <string name="copyright2">by blueVerdi</string>
+    <string name="more">More</string>
+    <string name="beyond_rosie">Beyond Rosie - more WWII sites</string>
+    <string name="hornet">USS Hornet</string>
+    <string name="battery_townsley">Battery Townsley</string>
+    <string name="presidio_officers_club">Presidio Officers Club</string>
+    <string name="bay_model">Bay Model Visitor Center</string>
+    <string name="jeremiah_address2">San Francisco, CA 94133</string>
+    <string name="jeremiah_phone">(415) 544&#8211;0100</string>
+    <string name="jeremiah_description1">One of two remaining fully functional Liberty ships.</string>
+    <string name="jeremiah_description2">Not operated by National Park Service. Admission charged.</string>
+    <string name="jeremiah_hours">Open daily 9am to 4pm for tours. Call for reservations.</string>
+    <string name="jeremiah_hours2">Closed Thanksgiving, Christmas Day and New Years Day, when in dry dock or on cruises.</string>
+    <string name="jeremiah_website">http://www.ssjeremiahobrien.org/</string>
+    <string name="jeremiah_latitude">37.8111</string>
+    <string name="jeremiah_longitude">-122.4181</string>
+    <string name="hornet_address1">707 W Hornet Ave</string>
+    <string name="hornet_address2">Alameda, CA 94501</string>
+    <string name="hornet_phone">(510) 521&#8211;8448</string>
+    <string name="hornet_description1">WWII Aircraft carrier built in 1943.</string>
+    <string name="hornet_description2">Not operated by National Park Service. Admission charged.</string>
+    <string name="hornet_hours">Open daily from 10:00am to 5:00pm</string>
+    <string name="hornet_hours2">Closed Thanksgiving, Christmas Day and New Years Day, closes early Christmas Eve.</string>
+    <string name="hornet_website">http://www.uss&#37;2Dhornet.org</string>
+    <string name="hornet_latitude">37.77272</string>
+    <string name="hornet_longitude">-122.302895</string>
+    <string name="townsley_address1">Fort Cronkhite parking lot</string>
+    <string name="townsley_address2">Marin Headlands</string>
+    <string name="townsley_phone">(415) 331&#8211;1540</string>
+    <string name="townsley_description1">Restored concrete WWII battery that mounted two 16-inch caliber guns.</string>
+    <string name="townsley_description2">Strenuous ½ mile walk from the parking lot.</string>
+    <string name="townsley_hours">Open the 1st Sunday of the month, from 12 noon to 4 PM</string>
+    <string name="townsley_hours2"></string>
+    <string name="townsley_website">http://www.nps.gov/goga/historyculture/battery-townsley.htm</string>
+    <string name="townsley_latitude">37.8362253</string>
+    <string name="townsley_longitude">-122.5440574</string>
+    <string name="poc_address1">50 Moraga Avenue, Presidio</string>
+    <string name="poc_address2">San Francisco, CA 94129</string>
+    <string name="poc_phone">(415) 561&#8211;4400</string>
+    <string name="poc_description1">Museum covers 10000 years of Presidio history, including era as US Army post.</string>
+    <string name="poc_description2">Free admission.</string>
+    <string name="poc_hours">Open Tuesdays through Sundays, 10 am to 6 pm</string>
+    <string name="poc_hours2">Closed over Thanksgiving and Christmas holiday period.</string>
+    <string name="poc_website">http://www.presidioofficersclub.com/</string>
+    <string name="poc_latitude">37.797429</string>
+    <string name="poc_longitude">-122.4591385</string>
+    <string name="bay_model_address1">2100 Bridgeway</string>
+    <string name="bay_model_address2">Sausalito, CA 94965</string>
+    <string name="bay_model_phone">(415) 332&#8211;3871</string>
+    <string name="bay_model_description1">Large-scale bay model. Site contains a small museum covering Bechtel Marin shipyards. 
+        See website for schedule of tours including the WWII shipyard program.</string>
+    <string name="bay_model_description2">US Army Corps of Enginers site. Free admission.</string>
+    <string name="bay_model_hours">Open Tuesdays through Sundays, 10 am to 6 pm</string>
+    <string name="bay_model_hours2">Closed on many holidays.</string>
+    <string name="bay_model_website">http://www.spn.usace.army.mil/Missions/Recreation/BayModelVisitorCenter.aspx</string>
+    <string name="bay_model_latitude">37.863333</string>
+    <string name="bay_model_longitude">-122.494722</string>
+    <string name="jeremiah_obrien">SS Jeremiah O\&#39;brien</string>
+    <string name="jeremiah_address1">Pier 45, Fisherman\&#39;s Wharf</string>
+    <string name="acknowledgements">Acknowledgements</string>
+    <string name="richmond_museum_thanks">Arial photos courtesy Richmond Museum of History</string>
+    <string name="nps_thanks">Other historical photos courtesy National Park Service and Kaiser Permanente and Bancroft Library.</string>
+    <string name="archive">Music courtesy archive.org</string>
+    <string name="other_sites">Modern site photos are from various web sources.</string>
+    <string name="take_down">If you believe any material is in violation of copyright please email bradley.justice@blueverdi.com.The material will be removed.</string>
+    <string name="thanks">Thanks to all.</string>
+    <string name="uss_sf">USS San Francisco Memorial</string>
+    <string name="uss_sf_address1">Lincoln Park</string>
+    <string name="uss_sf_address2">San Francisco, CA 94121</string>
+    <string name="uss_sf_phone"></string>
+    <string name="uss_sf_description1">Portion of the bridge showing damage taken at Guadalcanal.</string>
+    <string name="uss_sf_description2">Memorial to those who served on the ship.</string>
+    <string name="uss_sf_hours">Open daylight hours.</string>
+    <string name="uss_sf_hours2"></string>
+    <string name="uss_sf_website">http://www.usssanfrancisco.org/</string>
+    <string name="uss_sf_latitude">37.782806</string>
+    <string name="uss_sf_longitude">-122.511609</string>
+    <string name="press_back">Press back button again to exit this app.</string>
+    <string name="kaiser_3">Kaiser Shipyard #3</string>
+    <string name="ford">Ford Assembly Building</string>
+    <string name="kaiser_3_address1">Canal Blvd.</string>
+    <string name="kaiser_3_address2">Richmond, CA 94804</string>
+    <string name="kaiser_3_phone"></string>
+    <string name="kaiser_3_description1">Massive concrete General Warehouse and four other WWII era buildings.</string>
+    <string name="kaiser_3_description2">WWII era Whirley Crane.</string>
+    <string name="kaiser_3_hours">Exterior viewing in daylight hours.</string>
+    <string name="kaiser_3_hours2"></string>
+    <string name="kaiser_3_website">http://www.nps.gov/nr/travel/wwiibayarea/ric.htm</string>
+    <string name="kaiser_3_latitude">37.906</string>
+    <string name="kaiser_3_longitude">-122.365</string>
+    <string name="ford_address1">1414 Harbour Way South</string>
+    <string name="ford_address2">Richmond, CA 94804</string>
+    <string name="ford_phone"></string>
+    <string name="ford_description1">Designed in 1931 by Albert Kahn.</string>
+    <string name="ford_description2">In WWII manufactured jeeps and completed outfitting of tanks.</string>
+    <string name="ford_hours">No interior access.</string>
+    <string name="ford_hours2">Exterior viewable in daylight hours.</string>
+    <string name="ford_website"></string>
+    <string name="ford_latitude">37.9106</string>
+    <string name="ford_longitude">-122.3583</string>
+    <string name="oakland_museum">Oakland Museum</string>
+    <string name="oakland_museum_address1">1000 Oak Street</string>
+    <string name="oakland_museum_address2">Oakland, CA 94607</string>
+    <string name="oakland_museum_phone">(888) 625-6873</string>
+    <string name="oakland_museum_description1">History collection contains bay area WWII exhibits.</string>
+    <string name="oakland_museum_description2">Admission charge.</string>
+    <string name="oakland_museum_hours">Wed-Th 11 to 5, Fr 11 to 9, Sat-Su 10 to 6</string>
+    <string name="oakland_museum_hours2">Closed Mon-Tues, New Years Day, 4th July, Thanksgiving, Christmas</string>
+    <string name="oakland_museum_website">http://www.museumca.org</string>
+    <string name="oakland_museum_latitude">37.7986</string>
+    <string name="oakland_museum_longitude">-122.2636</string>
+    <string name="my_tour">My tour</string>
+    <string name="email_address">bradleypjustice@gmail.com</string>
+    <string name="add_to_tour">Add to tour</string>
+    <string name="drag_hint">Use the up/down arrow to drag a site to a new position on the list. Swipe across a site to remove it from the list.</string>
+    <string name="no_sites">No sites on your tour. Add  them from the Sites and More tabs.</string>
+    <string name="driving_information">Driving information</string>
+    <string name="not_available">not available at this time</string>
+    <string name="driving_distance">Driving distance from</string>
+    <string name="driving_time">Approx. driving time:</string>
+    <string name="ok">OK</string>
+    <string name="do_not_show">Do not show again.</string>
+    <string name="re_enable">(Hint can be re-enabled from the menu button.)</string>
+    <string name="details">Details</string>
+    <string name="photos">Photos</string>
+    <string name="title_activity_site_details">Site Details</string>
+    <string name="monument_text">The Rosie the Riveter Monument honors the contributions of women to the home front effort in World War 2. 
+        It is located on the site of Kaiser Shipyard #2 where many women worked alongside men to build Liberty and Victory Ships. The 
+        monument represents the bow, stern and steam stack of a Liberty ship. \n\nThe walkway to the bay is the same length as the keel 
+        of a Liberty ship (441 feet). The walk is a timeline that tells the story of the national home front during World War 2. As you follow the timeline you can imagine the Liberty ships under construction, lined up side-by-side, 
+        roughly where the monument stands today. Be sure to view your position in the Kaiser shipyards on the
+        &quot;SHIPYARDS&quot; tab of this app.\n\nThe monument was designed  by Cheryl Barton and Susan Schwartzenberg and was dedicated on October 14, 2000.</string>
+    <string name="title_activity_photo_view">Site Photos</string>
+    <string name="added_to_tour">Added to My Tour.</string>
+    <string name="monument1_caption">Rosie the Riveter Monument, portion of the walkway in the foreground.</string>
+    <string name="monument2_caption">Monument plaque. </string>
+    <string name="audio">Audio</string>
+    <string name="stop_audio">Stop audio</string>
+    <string name="getting_audio">Please wait - getting audio.</string>
+    <string name="red_oak_text">The <i>SS Red Oak Victory</i> is the only ship built in the Kaiser shipyards that is being restored. It 
+    	is a Victory class cargo ship that was launched November 9, 1944. She was transferred from the Merchant Marines to the US Navy 
+    	December 5, 1944 and converted at Port Chicago to carry munitions.\n\nThe <i>Red Oak Victory</i> operated in the Marshall and 
+    	Caroline Islands and the Philippines, distributing munitions to ships in the Pacific Fleet. She was decommissioned in 1946 and 
+    	subsequently served as a cargo ship until 1968. Mothballed in the National Defense Reserve Fleet in Suisun Bay, she was saved from 
+    	the scrapyard by the Richmond Museum Association in 1993. Since then a dedicated group of volunteers has worked diligently to restore 
+    	the ship.\n\nAs a munitions ship the <i>Red Oak Victory</i> was essentially a floating bomb, carrying up to 4,000 tons of munitions. This was 
+    	extremely hazardous duty for the crewmen. An explosion due to accident or enemy action would instantly kill all on board. Nevertheless, 
+    	the <i>Red Oak Victory</i> did not suffer a single casualty during her tour of duty.\n\nVictory Ships were designed as an improvement 
+    	over the Liberty Ship. At 455 feet  long and 62 feet wide they were 14 foot longer and 5 foot wider. To escape enemy submarine action their 
+    	top speed was 17 knots, 4 to 6 knots faster than a Liberty Ship. The first Victory Ship was launched in February 1944 and by the war\'s end 
+    	531 had been built - 142 of them here in Richmond.</string>
+    <string name="red_oak1_caption">SS Red Oak, a Victory class cargo ship built at Kaiser Shipyards</string>
+    <string name="red_oak2_caption">SS Red Oak Victory under construction in Kaiser Shipyard #1</string>
+    <string name="red_oak3_caption">Cross section of a Victory class ship</string>
+    <string name="kaiser_hospital">Kaiser Richmond Field Hospital</string>
+    <string name="kaiser_hospital_address1">1330 Cutting Blvd</string>
+    <string name="kaiser_hospital_address2">Richmond CA 19804</string>
+    <string name="kaiser_hospital_phone"></string>
+    <string name="kaiser_hospital_description1">WW II hospital built for shipyard workers</string>
+    <string name="kaiser_hospital_description2">No interior access.</string>
+    <string name="kaiser_hospital_hours">Exterior viewable in daylight hours.</string>
+    <string name="kaiser_hospital_hours2"></string>
+    <string name="kaiser_hospital_website"></string>
+    <string name="kaiser_hospital_latitude">37.92456</string>
+    <string name="kaiser_hospital_longitude">-122.3564</string>
+    <string name="kaiser_hospital1_caption">Kaiser Richmond Field Hospital today</string>
+    <string name="kaiser_hospital2_caption">Kaiser Richmond Field Hospital in 1942</string>
+    <string name="kaiser_hospital3_caption">Ambulances prepared for emergency victims</string>
+    <string name="kaiser_hospital4_caption">Dangerous work - nationwide 700 shipyard workers were killed by accidents during the war. Shipbuilding had the highest rate of disabling injuries of all war production industries.</string>
+    <string name="kaiser_hospital5_caption">Emergency room</string>
+    <string name="kaiser_hospital_text">Opened August 10, 1942, the Kaiser Richmond Field Hospital was built to serve the employees of 
+        the Kaiser shipyards. It was financed by the U.S. Maritime Commission and sponsored by Henry Kaiser\'s Permanente Foundation. 
+        It was the second tier of a three tier medical care system.  (First tier was on-site first aid stations; third tier the primary 
+        hospital in Oakland.) Initially built as a 10 bed facility, it was expanded to 160 beds by 1944.\n\nIndustrial accidents were a 
+        significant problem in World War 2, in fact up until D-Day more Americans were killed in home front industrial accidents than on 
+        the battlefield.\n\nHenry Kaiser\'s solution to this problem was to offer a pre-paid health plan to his workers, one of the first 
+        voluntary pre-paid health plans in the country. By August 1944 92.2 percent of the shipyard workers had joined the plan. After the 
+        war the plan was expanded to cover employee families.\n\nThis innovative approach was a precursor to health maintanance organizations 
+        (HMOs) was the beginning of Kaiser Permanente, now the largest non-profit HMO in the country.\n\nAfter the war, the hospital remained as 
+        part of Kaiser Permanente until replaced by a new Richmond facility in 1996.</string>
+    <string name="atchison1_caption">Atchison Village today</string>
+    <string name="atchison2_caption">Welcome to residents of the newly built project</string>
+    <string name="atchison3_caption">Atchison Village 1941</string>
+    <string name="atchison4_caption">Map outlining the boundaries of Atchison Village</string>
+    <string name="atchison_text">Atchison Village was built in 1941 to house Kaiser Shipyard workers. It was funded by the Lanham Community 
+        Facilities Act. The Lanham Act provided $150 million to construct housing for defense workers. This funded construction of approximately 
+        625,000 units throughout the country. Of the 20 World War 2 housing projects built in Richmond only Atchison Village, Nystrom Village and Triangle Court
+        remain.\n\nAtchison Village contains 97 one story buildings and 65 two story buildings, providing a total of 450 apartments.\n\n
+        In 1956 the government sold Atchison Village to its inhabitants for $1.5 million. Today it remains a housing cooperative.\n\nThere was 
+        tremenous demand for new housing during the war. When World War 2 began the population of Richmond was 23,600. By 1943 it had increased to 
+        over 93,700. Housing was in such short supply that many Kaiser Shipyard employees "hot bunked" - at night the bed was used by a day shift 
+        worker, in the day by a night shift worker. In addition thousands commuted from elsewhere in the bay, so many that a railroad was built 
+        from Emeryville to Richmond to carry shipyard workers.</string>
+    <string name="ford_plant1_caption">Ford Richmond Assembly Plant today</string>
+    <string name="ford_plant3_caption">Completed Serman tank outside the Ford Plant</string>
+    <string name="ford_plant4_caption">Rosies at the Ford Plant</string>
+    <string name="ford_plant_text">While the Kaiser Shipyards were the largest defense facilities in Richmond, there were others. The Ford 
+        Richmond Assembly Plant is an important example. Civilian automobile manufacturing was halted during World War 2 and the automobile 
+        plants were converted to support the war effort. Serving as the Richmond Tank Depot (one of three tank depots in the country) the Ford Plant 
+        supported the Pacific Theater. 49,225 jeeps were built here. In addition it performed final assembly on  tanks, half-tracked armored 
+        personnel carriers and other military vehicles after their initial construction elsewhere. In this role it  processed over 91,000 vehicles.\n\nThe plant has 
+        a history before and after the war in the construction of civilian automobiles. It was built in 1930 in the midst of the depression. The 
+        architect was Albert Kahn, noted for his industrial designs. His innovative use reinforced concrete enabled construction of factories 
+        with large open spaces lit by the significant use of windows. These stylistic hallmarks are visible in this building. Kahn designed the 
+        massive Ford Highland Park auto works built in 1917 to produce the Model T, the plant where Henry Ford perfected the assembly line. Kahn went on 
+        to design numerous auto plants as well as other important buildings.\n\nFollowing the war, the Richmond plant returned to the construction of 
+        automobiles. The last car was constructed here in 1953.\n\nThe building was seriously damaged in the Loma Prieta earthquake in 1989. 
+        The City of Richmond took on the repair of the building, a project that was completed in 2008. It now houses light industry and a 
+        restaurant. The large Craneway Pavilion, with its wall of windows facing the bay, is rented for special events.\n\n
+        You can view the first car to roll off of the assembly line here at the Richmond Museum of History.</string>
+    <string name="child_center">Maritime Child Development Center</string>
+    <string name="child_center_address1">1014 Florida Avenue</string>
+    <string name="child_center_address2">Richmond CA 19804</string>
+    <string name="child_center_phone"></string>
+    <string name="child_center_description1">Day care center built for shipyard workers\' children</string>
+    <string name="child_center_description2">Interior access by appointment and on scheduled ranger-led tours. Contact NPS for details.</string>
+    <string name="child_center_hours">Exterior viewable daylight hours.</string>
+    <string name="child_center_hours2"></string>
+    <string name="child_center_website"></string>
+    <string name="child_center_latitude">37.92826</string>
+    <string name="child_center_longitude">-122.360106</string>
+    <string name="child_center1_caption">Maritime Child Development Center today</string>
+    <string name="child_center2_caption">Rear of the center - note porthole-style windows</string>
+    <string name="child_center3_caption">A Rosie and her child at the center</string>
+    <string name="child_center4_caption">A game of Chinese checkers. The center was furnished with child-size furniture.</string>
+    <string name="child_center_text">The Maritime Child Center was built in 1943 to provide child care for the employees of the Kaiser 
+        Shipyards. It was funded by the U.S. Maritime Commission at the request of Henry Kaiser. While commonplace today, the working 
+        mother was uncommon prior to World War 2. Day care was an innovative concept. Under Kaiser\'s direction about 35 day care centers 
+        were constructed in Richmond for the children of the shipyard workers. Kaiser hired child development experts from UC Berkeley and 
+        elsewhere to assist in the creation of education and child care programs. Catherine Landreth from UC Berkeley oversaw the enterprise. 
+        The day care centers had outdoor space for fresh air and exercise and art and music were included as part of their curriculum. The children received 
+        warm meals, medical attention and had beds available. Warm meals could be purchased and taken home for the children and their families. 
+        The centers were open 24 hours and the employees could drop the children off when they worked night shifts.\n\nThis center and the Ruth Powers 
+        Child Development Center on Cutting Boulevard are the only World War 2 facilities remaining. After recent rehabilitation, they continue 
+        to serve the purpose for which they were built.</string>
+    <string name="shipyard31_caption">The General Warehouse, used to store ship fittings (furniture, blankets, mops, etc.)</string>
+    <string name="shipyard32_caption">Whirley Cranes were key to Henry Kaiser\'s methods, manipulating pre-fabricated parts into place for welding.</string>
+    <string name="shipyard33_caption">Whirly Cranes in action, working 24/7.</string>
+    <string name="shipyard34_caption">Riggers Loft included a sheet metal shop and a paint shop</string>
+    <string name="shipyard35_caption">Shift change at Shipyard #3</string>
+    <string name="shipyard3_text">Kaiser Shipyard #3 is the best preserved of the four Richmond shipyards. It is also the only one of the four intended to be a permanent 
+        shipyard. Today you can still view five World War 2 era buildings: the massive concrete General Warehouse, Riggers Loft, the machine shop, the first aid station and the cafeteria. 
+        The General Warehouse was used to store the many items - from furniture to blankets and brooms - required to fit out a ship. Riggers Loft, completed in 1942 was used to assemble 
+        prefabricated ship parts. Its 25000 square foot open space interior has 25 foot ceilings. 
+        There is a World War 2 Whirley Crane, so-called for their ability to 
+        turn 360 degrees. Behind the General Warehouse there are five graving/dry docks used for the construction of the ships. These are not currently viewable. 
+        Shipyard #3 is also home to the SS Red Oak Victory.\n\nCargo ships were crucial for winning the war, providing a lifeline to the United Kingdom as well as supplying 
+        United States military operations. During World War 2 the four Richmond 
+        shipyards produced 747 ships, primarily Liberty and Victory class cargo ships. Henry Kaiser developed mass production techniques that enabled his shipyards to produce ships at two-thirds 
+        the time and a quarter the cost of other shipyards. To accomplish this he introduced innovations drawn from automobile assembly lines 
+        and his own experience on dam building projects. He used modular, pre-fabricated construction. Large pre-made 
+        parts were moved into place by the Whirley Cranes and then welded together by "Wendy the Welder" and her male counterparts. Welding - as opposed to riveting - 
+        simplified the operation and reduced training time. As on assembly lines, workers were typically trained in a single skill. Unskilled workers 
+        could be assigned to perform simple repetative tasks. By 1944 the shipyards routinely built ships in two week\'s time and on one occasion 
+        built the Liberty ship SS Robert E. Peary in 5 days in a shipyard competition.\n\nThe Richmond shipyards workforce reached 30,000 within one 
+        month of the Pearl Harbor attack. At their peak they employed about 90,000, 27% of whom were women.</string>
+    <string name="enable_hints">Show all  hints</string>
+    <string name="hints_re_enabled">Hints have been re-enabled.</string>
+    <string name="use_large_bitmaps">High res photos</string>
+    <string name="version">Version 3.2</string>
+    <string name="kaiser_shipyard_1">Kaiser Shipyard #1</string>
+    <string name="kaiser_shipyard_2">Kaiser Shipyard #2</string>
+    <string name="kaiser_shipyard_3">Kaiser Shipyard #3</string>
+    <string name="kaiser_shipyard_4">Kaiser Shipyard #4</string>
+    <string name="help_text">Rosie the Riveter/World War 2 Home Front National Historic Park consists of a number of sites scattered throughout 
+        Richmond. Together they tell the story of the World War 2 home front effort, in particular the contributions of women.\n\nThis app 
+       serves a guide to the park and an introduction to the shipbuilding effort centered in Richmond.\n\nThe <i>Shipyards</i> tab maps World War 2 
+       arial photographs of the Kaiser shipyards over a satellite map of modern Richmond. Use <i>Show my location</i> to see where you are 
+       in the 1942 shipyards as you walk the site.\n\nThe <i>Sites</i> tab shows sites that relate to the park; the <i>More</i> tab shows 
+       other Bay Area sites related to World War 2. Each site entry provides visiting information, historic background, modern and historic 
+       photos and turn-by-turn directions.\n\nEvery site has an <i>Add to tour button</i>. Tap this to select this site for your visit. The 
+       site then appears on the <i>My Tour</i> tab. Use the up/down arrows to change the site position on your tour. Swipe across to remove it. You can 
+       see the distance and average driving times between the sites and have access to all site information including turn-by-turn 
+       directions.\n\nThe <i>Album</i> tab is a scrapbook of sounds and images from the home front.\n\nOne note about the <i>High res photos</i> menu 
+       option. When enabled, higher resolution photos will be used on the <i>Shipyards</i> tab. This can cause problems on some devices. If after enabling
+       the app stops working, disable the option.</string>
+    <string name="help">Help</string>
+    <string name="email_me2">To contact, email bradley.justice@blueverdi.com . </string>
+    <string name="shipyard1">Shipyard #1 photo</string>
+    <string name="shipyard2">Shipyard #2 photo</string>
+    <string name="shipyard3">Shipyard #3 photo</string>
+    <string name="shipyard4">Shipyard #4 photo</string>
+    <string name="yard1">Yard #1 photo</string>
+    <string name="yard2">Yard #2 photo</string>
+    <string name="yard3">Yard #3 photo</string>
+    <string name="yard4">Yard #4 photo</string>
+    <string name="disclaimer">THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.\n\nPortions of this software copyright 2012 by Carl Bauer. Additional portions authored
+        by Alessandro Crugnola. These are distributed under the Apache license:\n\nUnless
+        required by applicable law or agreed to in writing, Licensor provides
+        the Work (and each Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES
+        OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation,
+        any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS
+        FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of
+        using or redistributing the Work and assume any risks associated with Your exercise of
+        permissions under this License.\n\nPortiona authored by Moritz &quot;Moss&quot; Wundke and
+        distributed under the new BSD license:\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT
+        HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+        NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+        PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+        LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+        ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+        OF SUCH DAMAGE.</string>
+    <string name="zoomed_image">Zoom and pan image</string>
+
+    <string name="tour_hints">Tour hints</string>
+    <string name="photo_hints">Photo hints</string>
+    <string name="map_hints">Shipyard map hints</string>
+    <string name="photo_hint">Swipe screen to page through photos. Tap on photo for zoomable image. Return from zoom mode using the device back button.</string>
+    <string name="full_screen_hint">Tap on the map for full screen image. Return from full screen mode using the device back button.</string>
+    <string name="port_chicago">Port Chicago Naval Magazine National Memorial</string>
+    <string name="port_chicago_address1">4202 Alhambra Ave</string>
+    <string name="port_chicago_address2">Martinez, CA 94553</string>
+    <string name="port_chicago_phone">(925) 228-8860</string>
+    <string name="port_chicago_description2">Memorial to those killed in the WWII munitions explosion.</string>
+    <string name="port_chicago_description1">Site of the worst home front disaster of WWII.</string>
+    <string name="port_chicago_hours">Access by prior apointment only. Contact NPS at the above address.</string>
+    <string name="port_chicago_hours2">Shuttle bus from John Muir National Historic Site</string>
+    <string name="port_chicago_website">http://www.nps.gov/poch/index.htm</string>
+    <string name="port_chicago_latitude">37.982274</string>
+    <string name="port_chicago_longitude">-122.13344330000001</string>
+    <string name="port_chicago1_caption">Port Chicago Memorial entrance</string>
+    <string name="port_chicago2_caption">Pier 1 after the explosion</string>
+    <string name="port_chicago3_caption">Pier 1 today</string>
+    <string name="port_chicago4_caption">Mess hall after the explosion</string>
+    <string name="port_chicago_text">Port Chicago was a supply depot used to load munitions on ships to supply the Pacific Theater. 
+        The first ship was loaded December 8, 1942. The enlisted men unloaded munitions brought in by train and loaded the ships by
+        hand, winch and crane. Munitions processed here included high explosive bombs, shells and torpedoes.\n\n
+        The enlisted men loading the ships were entirely African American. The officers were entirely white. The loaders were poorly
+        trained and the officers inexperienced in managing munitions handling. There was significant tension as the loaders felt
+        they were pressed into unsafe procedures to improve the speed of the operation.\n\nOn December 17, 1944 disaster struck. The 
+        Liberty ship SS E.A. Bryan was being loaded with high explosives at Pier 1. Alongside the Victory ship SS Quinault Victory was
+        being prepared for loading. The munitions loaded on the ship and that on the pier totaled the equivalent of about 2,000 tons of 
+        TNT. There was an explosion and fire on the pier followed by a huge explosion as the munitions on the ship and pier detonated.\n\n
+        The 320 military personnel on the pier died instantly. An additional 390 civilians and military personnel were injured. The E.A. Bryan was
+        immediately destroyed and the Quinault was torn into pieces. Pilots flying overhead reported debris tossed 12,000 feet in the air. 
+        The explosion was heard throughout the East Bay and rattled windows as far south as 
+        Fremont, 45 miles away. Seismographs at UC Berkeley measured the shock waves as the equivalent of a 3.4 earthquake.\n\nThis was by far the worst disaster of the World War 2 home front. The exact cause of the explosion was never determined.\n\nFollowing the Port Chicago disaster, surviving personnel were
+        assigned to Mare Island Navel Base, reinforced with new recruits, and again assigned to load munitions. 258 refused citing continued
+        dangerous practices. 208 were court-martialed for disobeying orders and given bad conduct discharges. 50 were court-martialed for
+        mutiny and sentenced to 8 to 15 years hard labor. They are known today as the Port Chicago 50. They were granted clemency in 1946
+        but legal and political struggles that surrounded them continue to this day.\n\nIn many minds the story of the Port Chicago disaster 
+        and the Port Chicago 50 came to represent the unfairness of a segregated military. In 1945, partially in response to these events,
+        the Navy began moving toward full desegregation, which became manditory by presidential decree in 1948. The disaster and its
+        aftermath was a pivotal point in the African American struggle for equal rights.
+    </string>
+    <string name="no_entry">Active military base. Entry by reservation only. Contact NPS for details.</string>
+
+    <string name="firehouse67a">Fire House 67a</string>
+    <string name="firehouse67a_address1">12th and Cutting</string>
+    <string name="firehouse67a_address2">Richmond, CA 94804</string>
+    <string name="firehouse67a_phone"></string>
+    <string name="firehouse67a_description1">WWII era firehouse completed in 1943.</string>
+    <string name="firehouse67a_description2"></string>
+    <string name="firehouse67a_hours">No interior access.</string>
+    <string name="firehouse67a_hours2">Exterior viewing in daylight hours</string>
+    <string name="firehouse67a_website"></string>
+    <string name="firehouse67a_latitude">37.925358</string>
+    <string name="firehouse67a_longitude">-122.358313</string>
+    <string name="firehouse67a1_caption">Fire House 67a today (now renamed)</string>
+    <string name="firehouse67a2_caption">Fire House 67a under construction in 1943</string>
+    <string name="firehouse67a3_caption">Fire truck at Kaiser shipyard</string>
+    <string name="firehouse67a_text">Firehouse 67a was built in 1943. It was designed to house three trucks with men sleeping upstairs. 1943 
+        also saw the completion of a new 8 man fire house at 41st and Clinton and the expansion of the fire house at 31st and Cutting.\n\n
+        Enhancing community fire protection was of critical importance. The new shipyards needed protection from fire due to accident, sabotage 
+        and, potentially, enemy attack. Thousands of new housing units were being built in Richmond - these needed protection as well.\n\n
+        The explosive growth of the Kaiser shipyards and Richmond itself placed great demands on the supporting infrastructure. Roads, public 
+        transit, schools, police and fire protection struggled to meet the expanded demands. The effort was made more challanging by the 
+        wartime restrictions on materials and workforce. Even shops and movie houses were overwhelmed by the new demand, often staying open 
+        24 hours a day.
+    </string>
+    <string name="full_screen_map">Full screen map</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="our_privacy_policy1">We do not collect or store any of your private information.</string>
+    <string name="our_privacy_policy2">We do not transmit any information about you from your mobile device with one exception:
+    when you request directions we transmit your current location to Google to generate a route to your
+    desired location. We make no additional use of this information.</string>
+    <string name="internet_required">WARNING: No Internet access -  map features may not work properly.</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:background="@drawable/layout_border"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="@string/tour_hints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity= "center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:text="@string/drag_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+    <Button
+        android:id="@+id/exitHintButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_back_rounded"
+        android:text="@string/ok" />
+
+    <CheckBox
+        android:id="@+id/chkWelcome"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/do_not_show" />
+
+    <TextView
+        android:text="@string/re_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</LinearLayout>

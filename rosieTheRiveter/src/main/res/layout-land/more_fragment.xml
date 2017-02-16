@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sites_fragment"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/site_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/grey_background"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="horizontal" >
+			<RadioGroup
+			    android:id="@+id/radioGroup1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentLeft="true"
+			    android:layout_marginBottom="10dp"
+			    android:orientation="horizontal"
+			    android:layout_marginLeft="10dp" >
+			
+			    <RadioButton
+			        android:id="@+id/radioListView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:checked="true"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+			        android:text="@string/gallery_view" />
+			
+			    <RadioButton
+			        android:id="@+id/radioMapView"
+			        android:text="@string/map_view"
+					android:textAppearance="?android:attr/textAppearanceLarge"			        
+					android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" />
+			
+			</RadioGroup>        
+		</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/grey_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beyond_rosie"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/site_controls"
+       android:layout_below="@+id/title"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

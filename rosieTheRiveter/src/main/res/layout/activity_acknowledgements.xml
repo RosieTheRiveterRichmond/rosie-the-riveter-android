@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_centerVertical="true">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="30dp"
+			android:paddingBottom="30dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:background="@drawable/white_to_blue_back"
+			android:orientation="vertical" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text="@string/acknowledgements2"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+				 android:paddingTop="20dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:text="@string/richmond_museum_thanks"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:paddingTop="5dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:text="@string/nps_thanks"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:paddingTop="5dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text="@string/thanks"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				 android:paddingTop="20dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:text="@string/take_down2"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				 android:paddingTop="20dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:text="@string/disclaimer"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

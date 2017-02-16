@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.blueverdi.rosietheriveter.RosieTheRiveterActivity" >
+
+    <item android:id="@+id/help"
+	android:title="@string/help" />
+    
+    <item android:id="@+id/enableHints"
+	android:title="@string/enable_hints" />
+
+    <item android:id="@+id/useLargeBitmaps"
+	android:title="@string/use_large_bitmaps" 
+	android:checkable="true" />
+    
+</menu>

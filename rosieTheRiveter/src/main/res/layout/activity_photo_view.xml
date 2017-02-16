@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blueverdi.rosietheriveter.PhotoViewActivity" >
+
+	<TextView
+		android:id="@+id/name"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="2dp"
+	    android:layout_gravity="center_horizontal"
+	    android:gravity="center"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    <View
+        android:id="@+id/titleBorder"
+    	android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/name"
+	    android:layout_marginBottom="5dp"
+        android:background="@android:color/black" />
+    
+	<RelativeLayout 
+	    android:id="@+id/bottomBar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_alignParentBottom="true">
+
+	    <ImageView
+	        android:id="@+id/leftArrow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:src="@drawable/left_arrow30" />
+	    <ImageView
+	        android:id="@+id/rightArrow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:src="@drawable/right_arrow30" />
+	     <TextView
+	        android:id="@+id/caption"
+	        android:layout_width="match_parent"
+	        android:gravity="center"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/leftArrow"
+	        android:layout_toLeftOf="@id/rightArrow"
+	        android:background="@drawable/grey_background"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />   	    	    	    
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/photoView"
+        android:layout_below="@id/titleBorder"
+        android:layout_above="@id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"/>
+</RelativeLayout>
